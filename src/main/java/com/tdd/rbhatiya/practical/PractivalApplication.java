@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PractivalApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Main method...");
 		SpringApplication.run(PractivalApplication.class, args);
 	}
 
