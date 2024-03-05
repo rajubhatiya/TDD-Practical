@@ -7,7 +7,5 @@ public class Employee {
     private String name;
     private String age;
     private Employee employee;
-    public Employee getEmployee(){
-        return this.employee;
-    }
+
 }
