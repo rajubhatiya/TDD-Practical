@@ -79,10 +79,6 @@ public class RoboSum {
         for (int i = 0; i < j; i++) {
             a[i] = temp[i];
         }
-        for (int k = 0; k < temp.length; k++) {
-            System.out.println(temp[k]);
-        }
-
         return j;
     }
 
