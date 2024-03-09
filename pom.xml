@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tdd.rbhatiya</groupId>
-	<artifactId>TDD-practical</artifactId>
+	<artifactId>Robo-pract</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>practival</name>
 	<description>This is practical demo of TDD</description>

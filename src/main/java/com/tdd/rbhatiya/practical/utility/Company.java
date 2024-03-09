@@ -1,11 +1,16 @@
 package com.tdd.rbhatiya.practical.utility;
 
-public final class Company{
-   private final Employee employee;
-  private final String compName;
-//just getter methods
-    public Company(String compName, Employee employee){
-        this.compName=compName;
-        this.employee=employee;
-    }
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public final class Company {
+    private int compId;
+    private String compName;
+    private Employee employee;
 }
