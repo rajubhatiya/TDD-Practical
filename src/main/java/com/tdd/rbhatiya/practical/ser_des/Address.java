@@ -4,12 +4,12 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Person implements Serializable {
-    public int age;
-    public String name;
-    transient Address address;
+public class Address {
+    private Integer houseNumber;
+    public String city;
+    public String state;
+    public String country;
 }
